@@ -1,4 +1,4 @@
-# ⚡ N8-LIGHTNING: 3D Arcade Racing Game
+# N8-LIGHTNING: 3D Arcade Racing Game
 
 ![N8-Lightning Logo](/public/images/logo.jpg)
 
