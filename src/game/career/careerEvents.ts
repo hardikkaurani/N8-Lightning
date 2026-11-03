@@ -233,3 +233,4 @@ export function getCareerEventById(id: string): CareerEvent | undefined {
 export function getTotalEarnedStars(progress: Record<string, { stars: number }>): number {
   return Object.values(progress).reduce((acc, curr) => acc + (curr.stars || 0), 0);
 }
+

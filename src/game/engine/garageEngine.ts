@@ -89,6 +89,10 @@ export class GarageEngine {
     this.tick();
   }
 
+  public getCarId(): string {
+    return this.currentCarId;
+  }
+
   public loadCar(carId: string, customPrimary?: string, customStripe?: string) {
     if (this.currentMeshContainer) {
       this.scene.remove(this.currentMeshContainer.root);
@@ -176,3 +180,4 @@ export class GarageEngine {
     this.renderer.dispose();
   }
 }
+

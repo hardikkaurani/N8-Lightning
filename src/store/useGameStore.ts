@@ -1,6 +1,6 @@
 import { useSyncExternalStore } from 'react';
 import { GameScreen, GameMode, AIDifficulty, RaceResult, PlayerProfile, GameSettings } from '../types/game';
-import { SaveManager, INITIAL_PROFILE } from './saveManager';
+import { SaveManager } from './saveManager';
 import { VEHICLE_CONFIGS, getUpgradeCost } from '../game/vehicles/vehicleConfigs';
 import { getCareerEventById } from '../game/career/careerEvents';
 import { getTrackById } from '../game/tracks/trackConfigs';
@@ -357,3 +357,4 @@ export function useGameStore<T>(selector: (state: GameState) => T): T {
     () => selector(gameStore.getState())
   );
 }
+

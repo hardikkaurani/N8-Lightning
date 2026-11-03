@@ -3,7 +3,7 @@ import { useGameStore, gameStore } from '../../store/useGameStore';
 import { CAREER_EVENTS, getTotalEarnedStars } from '../../game/career/careerEvents';
 import { getTrackById } from '../../game/tracks/trackConfigs';
 import { SoundManager } from '../../game/audio/soundManager';
-import { ArrowLeft, Star, Lock, Play, Trophy, Award, Zap, Timer } from 'lucide-react';
+import { ArrowLeft, Star, Lock, Play } from 'lucide-react';
 
 export const CareerMap: React.FC = () => {
   const profile = useGameStore(s => s.profile);
@@ -183,3 +183,4 @@ export const CareerMap: React.FC = () => {
     </div>
   );
 };
+

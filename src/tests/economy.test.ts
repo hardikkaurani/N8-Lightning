@@ -91,3 +91,4 @@ describe('Economy & Garage System', () => {
     expect(after.totalRaces).toBe(1);
   });
 });
+

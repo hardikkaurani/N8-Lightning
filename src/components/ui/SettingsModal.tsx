@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useGameStore, gameStore } from '../../store/useGameStore';
 import { SoundManager } from '../../game/audio/soundManager';
-import { X, Volume2, VolumeX, Monitor, Sliders, AlertTriangle } from 'lucide-react';
+import { X, Volume2, Monitor, Sliders, AlertTriangle } from 'lucide-react';
 
 interface SettingsModalProps {
   onClose: () => void;
@@ -198,3 +198,4 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({ onClose }) => {
     </div>
   );
 };
+

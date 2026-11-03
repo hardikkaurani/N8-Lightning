@@ -2,7 +2,7 @@ import React from 'react';
 import heroLogo from '../../assets/logo.jpg';
 import { useGameStore, gameStore } from '../../store/useGameStore';
 import { SoundManager } from '../../game/audio/soundManager';
-import { Trophy, Play, Wrench, Settings, Zap, Compass, Award, Shield, Timer } from 'lucide-react';
+import { Trophy, Play, Wrench, Settings, Zap, Award, Shield, Timer } from 'lucide-react';
 
 export const MainMenu: React.FC = () => {
   const profile = useGameStore(s => s.profile);

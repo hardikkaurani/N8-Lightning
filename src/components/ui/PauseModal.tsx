@@ -63,3 +63,4 @@ export const PauseModal: React.FC<PauseModalProps> = ({ onResume, onRestart, onO
     </div>
   );
 };
+

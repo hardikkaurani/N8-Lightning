@@ -39,3 +39,4 @@ describe('Track & Environment System', () => {
     expect(fallback).toBe(TRACK_CONFIGS[0]);
   });
 });
+

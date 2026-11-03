@@ -85,7 +85,6 @@ export class VehiclePhysics {
     // 2. DIRECTION VECTORS
     const forward = new THREE.Vector3(0, 0, -1).applyEuler(this.state.rotation);
     const right = new THREE.Vector3(1, 0, 0).applyEuler(this.state.rotation);
-    const up = new THREE.Vector3(0, 1, 0);
 
     // Forward and lateral speed
     const forwardSpeed = this.state.velocity.dot(forward);

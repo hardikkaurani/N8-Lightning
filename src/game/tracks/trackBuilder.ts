@@ -246,7 +246,6 @@ export class TrackBuilder {
         const rampT = rampCfg.pointIndex / config.points.length;
         const rampPos = spline.getPointAt(rampT);
         const rampTangent = spline.getTangentAt(rampT).normalize();
-        const rampBinormal = new THREE.Vector3(-rampTangent.z, 0, rampTangent.x).normalize();
 
         const rampGeo = new THREE.BoxGeometry(roadWidth * 0.6, rampCfg.height, rampCfg.length);
         geometriesToDispose.push(rampGeo);
@@ -446,3 +445,4 @@ function buildThemedScenery(
     }
   }
 }
+

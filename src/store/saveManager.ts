@@ -136,3 +136,4 @@ export class SaveManager {
     return { ...INITIAL_PROFILE };
   }
 }
+

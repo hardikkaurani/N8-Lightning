@@ -151,3 +151,4 @@ export interface GameSettings {
   touchControls: boolean;
   reducedMotion: boolean;
 }
+

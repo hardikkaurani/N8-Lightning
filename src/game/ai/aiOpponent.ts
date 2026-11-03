@@ -90,10 +90,7 @@ export class AIOpponent {
     const toTarget = targetPos.clone().sub(carPos);
     toTarget.y = 0;
 
-    const carForward = new THREE.Vector3(0, 0, -1).applyEuler(this.data.physics.state.rotation);
     const carRight = new THREE.Vector3(1, 0, 0).applyEuler(this.data.physics.state.rotation);
-
-    const forwardDot = toTarget.clone().normalize().dot(carForward);
     const rightDot = toTarget.clone().normalize().dot(carRight);
 
     // Steer angle proportional to lateral offset from target vector
@@ -188,3 +185,4 @@ export class AIOpponent {
     );
   }
 }
+

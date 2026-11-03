@@ -3,7 +3,7 @@ import { useGameStore, gameStore } from '../../store/useGameStore';
 import { TRACK_CONFIGS } from '../../game/tracks/trackConfigs';
 import { AIDifficulty, GameMode } from '../../types/game';
 import { SoundManager } from '../../game/audio/soundManager';
-import { ArrowLeft, Play, Flag, Gauge, ChevronRight, ChevronLeft, MapPin, Sparkles } from 'lucide-react';
+import { ArrowLeft, Play, ChevronRight, ChevronLeft, MapPin } from 'lucide-react';
 
 interface TrackSelectProps {
   initialMode?: GameMode;
@@ -192,3 +192,4 @@ export const TrackSelect: React.FC<TrackSelectProps> = ({ initialMode = 'QUICK_R
     </div>
   );
 };
+

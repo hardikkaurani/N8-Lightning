@@ -206,3 +206,4 @@ export const HUD: React.FC<HUDProps> = ({ state, onPause }) => {
     </div>
   );
 };
+

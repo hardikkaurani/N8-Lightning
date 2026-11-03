@@ -138,3 +138,4 @@ export function getUpgradeCost(currentLevel: number): number {
   const costs = [3000, 7500, 15000, 25000, 40000];
   return costs[currentLevel] || 50000;
 }
+

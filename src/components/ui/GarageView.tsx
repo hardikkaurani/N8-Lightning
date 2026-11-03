@@ -46,6 +46,7 @@ export const GarageView: React.FC = () => {
       engine.dispose();
       garageEngineRef.current = null;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Update car in 3D scene when selection or paint changes
@@ -53,7 +54,7 @@ export const GarageView: React.FC = () => {
     if (garageEngineRef.current) {
       garageEngineRef.current.loadCar(car.id, currentCustom.primaryColor, currentCustom.stripeColor);
     }
-  }, [selectedIdx, currentCustom.primaryColor, currentCustom.stripeColor]);
+  }, [selectedIdx, car.id, currentCustom.primaryColor, currentCustom.stripeColor]);
 
   const handlePrevCar = () => {
     soundManager.playUIClick();
@@ -401,3 +402,4 @@ export const GarageView: React.FC = () => {
     </div>
   );
 };
+

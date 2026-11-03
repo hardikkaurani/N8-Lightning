@@ -9,7 +9,6 @@ export class InputManager {
   private touchSteer = 0;
   private touchDrift = false;
   private touchNitro = false;
-  private touchReset = false;
 
   private onPauseCallback: (() => void) | null = null;
   private onResetCallback: (() => void) | null = null;
@@ -96,3 +95,4 @@ export class InputManager {
     }
   }
 }
+

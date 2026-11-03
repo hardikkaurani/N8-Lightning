@@ -72,6 +72,7 @@ export const RaceView: React.FC = () => {
       engine.dispose();
       raceEngineRef.current = null;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -120,3 +121,4 @@ export const RaceView: React.FC = () => {
     </div>
   );
 };
+

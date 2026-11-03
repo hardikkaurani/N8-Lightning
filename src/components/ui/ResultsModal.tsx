@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { useGameStore, gameStore } from '../../store/useGameStore';
 import { SoundManager } from '../../game/audio/soundManager';
-import { Trophy, Star, Award, RotateCcw, ArrowRight, Wrench, Menu, Zap, Gauge } from 'lucide-react';
+import { Star, RotateCcw, Wrench, Menu } from 'lucide-react';
 
 export const ResultsModal: React.FC = () => {
   const result = useGameStore(s => s.lastRaceResult);
@@ -158,3 +158,4 @@ export const ResultsModal: React.FC = () => {
     </div>
   );
 };
+
