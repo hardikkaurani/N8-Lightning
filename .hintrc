@@ -1,0 +1,10 @@
+{
+  "extends": ["web-recommended"],
+  "hints": {
+    "typescript-config/strict": "off",
+    "typescript-config/is-valid": "off",
+    "meta-viewport": "off",
+    "compat-api/html": "off",
+    "css-prefix-order": "off"
+  }
+}
