@@ -12,7 +12,7 @@
 
 ---
 
-## 🏎️ Overview
+## Overview
 
 **N8-LIGHTNING** is a full-featured, high-performance 3D arcade racing game engineered to capture the speed, adrenaline, and visual spectacle of arcade classics like *Asphalt 8*. 
 
@@ -20,7 +20,7 @@ Every race mode leads to a genuine 3D playable simulation powered by a custom fi
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### 1. Arcade Vehicle Physics & Handling
 - **Progressive Torque Curve**: Non-linear acceleration curve with dynamic speed resistance and gear-shifting simulation.
@@ -65,7 +65,7 @@ Every race mode leads to a genuine 3D playable simulation powered by a custom fi
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Action | Desktop Keyboard | Mobile Touch Control |
 | :--- | :--- | :--- |
@@ -80,7 +80,7 @@ Every race mode leads to a genuine 3D playable simulation powered by a custom fi
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React 19, TypeScript, Vite, Tailwind CSS v4, Lucide React, Canvas Confetti
 - **3D Graphics Engine**: Three.js, WebGL PCF Soft Shadow Mapping, ACES Filmic Tone Mapping
@@ -90,7 +90,7 @@ Every race mode leads to a genuine 3D playable simulation powered by a custom fi
 
 ---
 
-## 🚀 Local Development Setup
+## Local Development Setup
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -112,7 +112,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🧪 Automated Testing
+## Automated Testing
 
 Run the test suite:
 ```bash
@@ -125,7 +125,7 @@ npm run build
 
 ---
 
-## 📱 Android APK Build
+## Android APK Build
 
 To build an Android APK locally using Capacitor:
 ```bash
