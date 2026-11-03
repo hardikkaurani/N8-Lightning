@@ -31,7 +31,7 @@ and a fully synthesized Web Audio soundtrack. No external game assets required.<
 
 | Platform | Link | Notes |
 |---|---|---|
-| Browser (desktop and mobile) | [hardikkaurani.github.io/N8-Lightning](https://hardikkaurani.github.io/N8-Lightning/) | No install needed. Keyboard on desktop, touch controls on mobile |
+| Browser (desktop and mobile) | [n8-lightning.vercel.app](https://n8-lightning.vercel.app/) | No install needed. Keyboard on desktop, touch controls on mobile |
 | Android | [releases folder](https://github.com/hardikkaurani/N8-Lightning/tree/main/releases) | Packaged build produced with Capacitor |
 | Source code | [github.com/hardikkaurani/N8-Lightning](https://github.com/hardikkaurani/N8-Lightning) | MIT licensed |
 
@@ -442,8 +442,7 @@ The repository includes a GitHub Actions workflow (`deploy.yml`) that builds and
 
 | Target | Details |
 |---|---|
-| GitHub Pages | Live at [hardikkaurani.github.io/N8-Lightning](https://hardikkaurani.github.io/N8-Lightning/) |
-| Vercel | Configured through `vercel.json` |
+| Vercel | Live production deployment at [https://n8-lightning.vercel.app/](https://n8-lightning.vercel.app/) |
 | Android | Built locally with Capacitor and Gradle, see [Android APK Build](#android-apk-build) |
 
 ---
